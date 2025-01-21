@@ -9,7 +9,7 @@ const App = () => {
     <BlogProvider>
       <Router>
         <Routes>
-          <Route path="/createblog" element={<CreateBlog />} />
+          <Route path="/" element={<CreateBlog />} />
           <Route path="/blogs" element={<BlogList />} />
           <Route path="/blogs/:id" element={<BlogDetails />} />
         </Routes>
